@@ -369,7 +369,7 @@ nav ul button:hover {
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: 48px; /* 120% */
+  line-height: 48px;
 }
 .section3 > div:nth-child(4) #nemore p:nth-child(2) {
   margin: 37px 0px 37px 0px;
@@ -517,6 +517,644 @@ nav ul button:hover {
     margin: 0px 0px 8px 0px;
     width: 346px;
     height: 104px;
+  }
+}
+.section4 {
+  margin: auto;
+  width: 1440px;
+  height: 768px;
+  padding: 79px 135px 0px 135px;
+  background-color: #434ccc;
+}
+.section4 h5 {
+  margin: 0px 0px 21px 0px;
+  color: #FFF;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+.section4 h2 {
+  margin: 0px 0px 29px 0px;
+  color: #FFF;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+}
+.section4 p {
+  margin: 0px 0px 0px 0px;
+  width: 570px;
+  height: 83px;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  margin-left: 25%;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+@media all and (max-width: 480px) {
+  .section4 {
+    margin: auto;
+    width: 375px;
+    height: 768px;
+    padding: 63px 15px 0px 15px;
+  }
+  .section4 h5 {
+    margin: 0px 0px 19px 0px;
+    font-size: 16px;
+  }
+  .section4 h2 {
+    margin: 0px 0px 31px 0px;
+    font-size: 40px;
+  }
+  .section4 p {
+    margin: 0px 0px 0px 0px;
+    width: 346px;
+    height: 134px;
+  }
+}
+.section5 {
+  margin: auto;
+  width: 1440px;
+  height: auto;
+  padding: 5px 135px 50px 135px;
+  background-color: #FFF;
+}
+.section5 .grid-items {
+  margin: -416px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 570px);
+  grid-template-rows: repeat(2, 512px);
+  gap: 30px;
+  grid-template-areas: "b1 b1" "b2 b3";
+}
+.section5 .grid-items div:nth-child(1) {
+  background-image: url(/img/yellow\ girl.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 5px;
+  grid-area: b1;
+  background-color: #f1b505;
+}
+.section5 .grid-items div:nth-child(1) p {
+  margin: 111px 0px 21px 100px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.section5 .grid-items div:nth-child(1) h2 {
+  margin: 0px 0px 36px 100px;
+  width: 370px;
+  height: 128px;
+  color: #FFF;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+}
+.section5 .grid-items div:nth-child(1) button {
+  margin: 0px 0px 0px 100px;
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #FFF;
+  background-color: #f1b505;
+  border: #FFF 1px solid;
+  border-radius: 8px;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  transition: all 0.3s;
+}
+.section5 .grid-items div:nth-child(1) button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.section5 .grid-items p {
+  margin: 48px 0px 17px 91px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.section5 .grid-items h2 {
+  margin: 0px 0px 24px 91px;
+  width: 161px;
+  height: 96px;
+  color: #FFF;
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.section5 .grid-items button {
+  margin: 0px 0px 0px 91px;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #FFF;
+  border: #FFF 1px solid;
+  border-radius: 8px;
+  background-color: transparent;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  transition: all 0.3s;
+}
+.section5 .grid-items button:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+.section5 .grid-items div:nth-child(2) {
+  background-image: url(/img/putla.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  grid-area: b2;
+  background-color: #e94a47;
+  border-radius: 5px;
+}
+.section5 .grid-items div:nth-child(3) {
+  background-image: url(/img/dog.png);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  grid-area: b3;
+  background-color: #428dfc;
+  border-radius: 5px;
+}
+.section5 #all-works-btn {
+  margin: 30px 0px 0px 43%;
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #434ccc;
+  border: #434ccc 1px solid;
+  border-radius: 8px;
+  background-color: #FFF;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.section5 #all-works-btn:hover {
+  cursor: pointer;
+}
+.section5 > div:nth-child(3) {
+  display: flex;
+  flex-direction: row;
+}
+.section5 > div:nth-child(3) > img {
+  position: relative;
+  right: 150px;
+}
+.section5 > div:nth-child(3) > div:nth-child(2) {
+  position: relative;
+  left: -330px;
+}
+.section5 > div:nth-child(3) > div:nth-child(2) h2 {
+  margin: 150px 0px 27px 0px;
+  color: #000;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+}
+.section5 > div:nth-child(3) > div:nth-child(2) p {
+  margin: 0px 0px 52px 0px;
+  width: 570px;
+  height: 69px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.section5 > div:nth-child(3) > div:nth-child(2) div:nth-child(3) {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.section5 > div:nth-child(3) > div:nth-child(2) div:nth-child(3) div > img {
+  width: 50px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.section5 > div:nth-child(3) > div:nth-child(2) div:nth-child(3) div h4 {
+  margin: 25px 0px 7px 0px;
+  color: #000;
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.section5 > div:nth-child(3) > div:nth-child(2) div:nth-child(3) div p {
+  margin: 0px 0px 0px 0px;
+  width: 270px;
+  height: 51px;
+  flex-shrink: 0;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media all and (max-width: 480px) {
+  .section5 {
+    margin: auto;
+    width: 375px;
+    padding: 5px 15px 35px 15px;
+  }
+  .section5 .grid-items {
+    margin: -400px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 350px);
+    grid-template-rows: repeat(3, 512px);
+    gap: 15px;
+    grid-template-areas: "b1" "b2" "b3";
+  }
+  .section5 .grid-items div:nth-child(1) {
+    background-position: left;
+  }
+  .section5 .grid-items div:nth-child(1) p {
+    margin: 30px 0px 10px 30px;
+  }
+  .section5 .grid-items div:nth-child(1) h2 {
+    margin: 0px 0px 32px 30px;
+    width: 265px;
+    height: 96px;
+    font-size: 40px;
+  }
+  .section5 .grid-items div:nth-child(1) button {
+    margin: 0px 0px 0px 30px;
+  }
+  .section5 .grid-items div:nth-child(2) p {
+    margin: 31px 0px 17px 30px;
+  }
+  .section5 .grid-items div:nth-child(2) h2 {
+    margin: 0px 0px 24px 30px;
+  }
+  .section5 .grid-items div:nth-child(2) button {
+    margin: 0px 0px 0px 30px;
+  }
+  .section5 .grid-items div:nth-child(3) p {
+    margin: 31px 0px 17px 30px;
+  }
+  .section5 .grid-items div:nth-child(3) h2 {
+    margin: 0px 0px 24px 30px;
+  }
+  .section5 .grid-items div:nth-child(3) button {
+    margin: 0px 0px 0px 30px;
+  }
+  .section5 #all-works-btn {
+    margin: 60px 0px 0px 25%;
+  }
+  .section5 > div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+  }
+  .section5 > div:nth-child(3) > img {
+    position: static;
+  }
+  .section5 > div:nth-child(3) > div:nth-child(2) {
+    position: static;
+  }
+  .section5 > div:nth-child(3) > div:nth-child(2) h2 {
+    margin: 5px 0px 31px 0px;
+    font-size: 40px;
+  }
+  .section5 > div:nth-child(3) > div:nth-child(2) p {
+    margin: 0px 0px 46px 0px;
+    width: 346px;
+    height: 105px;
+  }
+  .section5 > div:nth-child(3) > div:nth-child(2) div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .section5 > div:nth-child(3) > div:nth-child(2) div:nth-child(3) div h4 {
+    margin: 16px 0px 22px 0px;
+  }
+  .section5 > div:nth-child(3) > div:nth-child(2) div:nth-child(3) div p {
+    margin: 0px 0px 26px 0px;
+    width: 346px;
+    height: 51px;
+  }
+}
+.section6 {
+  margin: auto;
+  width: 1440px;
+  height: 656px;
+  padding: 0px 0px 0px 135px;
+  background-color: #434ccc;
+  display: flex;
+  flex-direction: row;
+}
+.section6 div > h5 {
+  margin: 127px 0px 21px 0px;
+  color: #FFF;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+.section6 div > h2 {
+  margin: 0px 0px 0px 0px;
+  color: #FFF;
+  width: 331px;
+  height: 128px;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+}
+.section6 div > p {
+  margin: 29px 0px 32px 0px;
+  width: 470px;
+  height: 103px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.section6 div > button {
+  margin-top: 41px;
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 5px;
+  background: #F1B505;
+  color: #FFF;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  transition: 0.3s;
+}
+.section6 div button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.section6 img {
+  margin-left: 115px;
+}
+
+@media all and (max-width: 480px) {
+  .section6 {
+    margin: auto;
+    width: 375px;
+    height: auto;
+    padding: 0px 15px 0px 15px;
+    background-color: #434ccc;
+    display: flex;
+    flex-direction: column;
+  }
+  .section6 div > h5 {
+    margin: 63px 0px 0px 0px;
+  }
+  .section6 div > h2 {
+    margin: 19px 0px 31px 0px;
+    width: 237px;
+    height: 96px;
+    font-size: 40px;
+  }
+  .section6 div > p {
+    margin: 0px 0px 24px 0px;
+    width: 346px;
+    height: 143px;
+  }
+  .section6 div > button {
+    margin: 0px 0px 64px 0px;
+  }
+  .section6 img {
+    margin-left: 0px;
+  }
+}
+.section7 {
+  margin: auto;
+  width: 1440px;
+  height: auto;
+  padding: 0px 135px 0px 135px;
+  background-color: #FFF;
+}
+.section7 h5 {
+  margin: 63px 0px 21px 0px;
+  color: #000;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+}
+.section7 h2 {
+  margin: 0px 0px 0px 0px;
+  color: #000;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+}
+.section7 p {
+  margin: 29px 0px 36px 25%;
+  width: 570px;
+  height: 83px;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.section7 .profile-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+.section7 .profile-cards > div {
+  width: 370px;
+  height: 480px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #FFF;
+  transition: 0.3s;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+}
+.section7 .profile-cards > div img {
+  margin: 10px 20px 20px 30px;
+  border-radius: 50%;
+}
+.section7 .profile-cards > div h4 {
+  margin: 0px 0px 0px 32px;
+  color: #000;
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.section7 .profile-cards > div > div:nth-child(3) {
+  display: flex;
+  flex-direction: row;
+  margin: 43px 32px 0px 32px;
+}
+.section7 .profile-cards > div > div:nth-child(3) a > img {
+  margin: 0px 0px 0px 16px;
+}
+.section7 .profile-cards > div > div:nth-child(3) span {
+  margin: 0px 150px 0px 0px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.section7 .profile-cards > div:hover {
+  cursor: pointer;
+  transform: scale(1.07);
+}
+.section7 .section7-smaller-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  grid-template-rows: repeat(2, 144px);
+  gap: 30px;
+}
+.section7 .section7-smaller-cards > div {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  transition: 0.3s;
+}
+.section7 .section7-smaller-cards > div img {
+  margin: 32px 18px 35px 32px;
+  width: 50px;
+  height: 47px;
+  flex-shrink: 0;
+}
+.section7 .section7-smaller-cards > div > div h4 {
+  margin: 24px 0px 7px 0px;
+  color: #000;
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.section7 .section7-smaller-cards > div > div p {
+  margin: 0px 0px 16px 0px;
+  width: 238px;
+  height: 65px;
+  flex-shrink: 0;
+  text-align: start;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.section7 .section7-smaller-cards > div:hover {
+  cursor: pointer;
+  transform: scale(1.07);
+}
+.section7 .section7-smaller-cards > div:hover p {
+  color: #000;
+}
+
+@media all and (max-width: 480px) {
+  .section7 {
+    margin: auto;
+    width: 375px;
+    height: auto;
+    padding: 0px 15px 0px 15px;
+  }
+  .section7 h5 {
+    margin: 47px 0px 19px 0px;
+  }
+  .section7 h2 {
+    margin: 0px 0px 0px 0px;
+    font-size: 40px;
+  }
+  .section7 p {
+    margin: 31px 0px 53px 0px;
+    width: 346px;
+    height: 98px;
+  }
+  .section7 .profile-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .section7 .profile-cards > div {
+    width: 346px;
+    height: 448px;
+  }
+  .section7 .profile-cards > div > div:nth-child(3) {
+    margin: 43px 32px 24px 32px;
+  }
+  .section7 .section7-smaller-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 346px);
+    grid-template-rows: repeat(6, 144px);
+    gap: 16px;
+  }
+  .section7 .section7-smaller-cards > div img {
+    margin: 32px 25px 63px 32px;
+    width: 43px;
+    height: 49px;
+  }
+  .section7 .section7-smaller-cards > div > div h4 {
+    margin: 24px 0px 7px 0px;
   }
 }
 
