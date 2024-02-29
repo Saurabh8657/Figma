@@ -16,7 +16,7 @@ nav #menu {
   display: none;
 }
 nav h3 {
-  color: #FFF;
+  color: #fff;
   font-family: "DM Serif Display";
   font-size: 40px;
   font-weight: 400;
@@ -32,7 +32,7 @@ nav ul {
   gap: 40px;
 }
 nav ul a {
-  color: #FFF;
+  color: #fff;
   font-family: "DM Sans";
   font-size: 16px;
   font-weight: 700;
@@ -41,12 +41,12 @@ nav ul a {
 }
 nav ul li:hover {
   transform: translateY(-5px) scale(1.1);
-  text-decoration: underline #FFF 2px;
+  text-decoration: underline #fff 2px;
 }
 nav ul button {
   background-color: #434ccc;
-  color: #FFF;
-  border: #FFF 1px solid;
+  color: #fff;
+  border: #fff 1px solid;
   border-radius: 4px;
   padding: 11px 56px;
   text-align: center;
@@ -71,7 +71,7 @@ nav ul button:hover {
   }
   nav #menu {
     display: block;
-    color: #FFF;
+    color: #fff;
     font-size: 24px;
   }
   nav h3 {
@@ -93,7 +93,7 @@ nav ul button:hover {
   width: 50%;
 }
 .section1 div h5 {
-  color: #FFF;
+  color: #fff;
   font-family: "DM Sans";
   font-size: 16px;
   font-style: normal;
@@ -104,7 +104,7 @@ nav ul button:hover {
 }
 .section1 div h1 {
   margin-top: 24px;
-  color: #FFF;
+  color: #fff;
   font-family: "DM Serif Display";
   font-size: 72px;
   font-style: normal;
@@ -113,7 +113,7 @@ nav ul button:hover {
 }
 .section1 div p {
   margin-top: 32px;
-  color: #FFF;
+  color: #fff;
   font-family: "DM Sans";
   font-size: 16px;
   font-style: normal;
@@ -128,8 +128,8 @@ nav ul button:hover {
   flex-shrink: 0;
   border: none;
   border-radius: 5px;
-  background: #F1B505;
-  color: #FFF;
+  background: #f1b505;
+  color: #fff;
   text-align: center;
   font-family: "DM Sans";
   font-size: 16px;
@@ -228,7 +228,7 @@ nav ul button:hover {
 }
 .section2 > div:nth-child(2) div {
   border-radius: 5px;
-  background-color: #FFF;
+  background-color: #fff;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
@@ -528,7 +528,7 @@ nav ul button:hover {
 }
 .section4 h5 {
   margin: 0px 0px 21px 0px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: "DM Sans";
   font-size: 16px;
@@ -540,7 +540,7 @@ nav ul button:hover {
 }
 .section4 h2 {
   margin: 0px 0px 29px 0px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: "DM Serif Display";
   font-size: 56px;
@@ -553,7 +553,7 @@ nav ul button:hover {
   width: 570px;
   height: 83px;
   flex-shrink: 0;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   margin-left: 25%;
   font-family: "DM Sans";
@@ -589,7 +589,7 @@ nav ul button:hover {
   width: 1440px;
   height: auto;
   padding: 5px 135px 50px 135px;
-  background-color: #FFF;
+  background-color: #fff;
 }
 .section5 .grid-items {
   margin: -416px 0px 0px 0px;
@@ -620,7 +620,7 @@ nav ul button:hover {
   margin: 0px 0px 36px 100px;
   width: 370px;
   height: 128px;
-  color: #FFF;
+  color: #fff;
   font-family: "DM Serif Display";
   font-size: 56px;
   font-style: normal;
@@ -632,9 +632,9 @@ nav ul button:hover {
   width: 170px;
   height: 48px;
   flex-shrink: 0;
-  color: #FFF;
+  color: #fff;
   background-color: #f1b505;
-  border: #FFF 1px solid;
+  border: #fff 1px solid;
   border-radius: 8px;
   text-align: center;
   font-family: "DM Sans";
@@ -661,7 +661,7 @@ nav ul button:hover {
   margin: 0px 0px 24px 91px;
   width: 161px;
   height: 96px;
-  color: #FFF;
+  color: #fff;
   font-family: "DM Serif Display";
   font-size: 24px;
   font-style: normal;
@@ -673,8 +673,8 @@ nav ul button:hover {
   width: 48px;
   height: 48px;
   flex-shrink: 0;
-  color: #FFF;
-  border: #FFF 1px solid;
+  color: #fff;
+  border: #fff 1px solid;
   border-radius: 8px;
   background-color: transparent;
   text-align: center;
@@ -714,7 +714,7 @@ nav ul button:hover {
   color: #434ccc;
   border: #434ccc 1px solid;
   border-radius: 8px;
-  background-color: #FFF;
+  background-color: #fff;
   text-align: center;
   font-family: "DM Sans";
   font-size: 18px;
@@ -883,7 +883,7 @@ nav ul button:hover {
 }
 .section6 div > h5 {
   margin: 127px 0px 21px 0px;
-  color: #FFF;
+  color: #fff;
   font-family: "DM Sans";
   font-size: 16px;
   font-style: normal;
@@ -894,7 +894,7 @@ nav ul button:hover {
 }
 .section6 div > h2 {
   margin: 0px 0px 0px 0px;
-  color: #FFF;
+  color: #fff;
   width: 331px;
   height: 128px;
   font-family: "DM Serif Display";
@@ -908,7 +908,7 @@ nav ul button:hover {
   width: 470px;
   height: 103px;
   flex-shrink: 0;
-  color: #FFF;
+  color: #fff;
   font-family: "DM Sans";
   font-size: 20px;
   font-style: normal;
@@ -922,8 +922,8 @@ nav ul button:hover {
   flex-shrink: 0;
   border: none;
   border-radius: 5px;
-  background: #F1B505;
-  color: #FFF;
+  background: #f1b505;
+  color: #fff;
   text-align: center;
   font-family: "DM Sans";
   font-size: 16px;
@@ -976,7 +976,7 @@ nav ul button:hover {
   width: 1440px;
   height: auto;
   padding: 0px 135px 112px 135px;
-  background-color: #FFF;
+  background-color: #fff;
 }
 .section7 h5 {
   margin: 63px 0px 21px 0px;
@@ -1023,7 +1023,7 @@ nav ul button:hover {
   height: 480px;
   flex-shrink: 0;
   border-radius: 5px;
-  background: #FFF;
+  background: #fff;
   transition: 0.3s;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
 }
@@ -1071,7 +1071,7 @@ nav ul button:hover {
   display: flex;
   flex-direction: row;
   border-radius: 5px;
-  background: #FFF;
+  background: #fff;
   box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
   transition: 0.3s;
 }
@@ -1173,7 +1173,7 @@ nav ul button:hover {
 }
 .section8 div h5 {
   margin: 127px 0px 33px 40px;
-  color: #FFF;
+  color: #fff;
   font-family: "DM Sans";
   font-size: 16px;
   font-style: normal;
@@ -1187,7 +1187,7 @@ nav ul button:hover {
   width: 670px;
   height: 107px;
   flex-shrink: 0;
-  color: #FFF;
+  color: #fff;
   font-family: "DM Serif Display";
   font-size: 24px;
   font-style: normal;
@@ -1196,7 +1196,7 @@ nav ul button:hover {
 }
 .section8 div p:nth-child(3) {
   margin: 0px 0px 15px 40px;
-  color: #FFF;
+  color: #fff;
   font-family: "DM Sans";
   font-size: 20px;
   font-style: normal;
@@ -1244,7 +1244,7 @@ nav ul button:hover {
   width: 1440px;
   height: auto;
   padding: 0px 135px 90px 135px;
-  background-color: #FFF;
+  background-color: #fff;
 }
 .section9 h5 {
   margin: 79px 0px 21px 0px;
@@ -1296,7 +1296,7 @@ nav ul button:hover {
   flex-shrink: 0;
   color: #434ccc;
   text-align: center;
-  background-color: #FFF;
+  background-color: #fff;
   border-radius: 8px;
   border: 2px solid #434ccc;
   font-family: "DM Sans";
@@ -1329,7 +1329,7 @@ nav ul button:hover {
   flex-shrink: 0;
   color: #434ccc;
   text-align: center;
-  background-color: #FFF;
+  background-color: #fff;
   border-radius: 8px;
   border: 2px solid #434ccc;
   font-family: "DM Sans";
@@ -1432,7 +1432,7 @@ nav ul button:hover {
   color: #434ccc;
   border-radius: 5px;
   margin-right: 10px;
-  background-color: #FFF;
+  background-color: #fff;
   text-align: center;
   border: rgba(0, 0, 0, 0.5) 1px solid;
 }
@@ -1475,7 +1475,9 @@ nav ul button:hover {
   width: 275px;
   height: 300px;
 }
-.section9 #viderer #div1:hover, .section9 #viderer #div2:hover, .section9 #viderer #div3:hover {
+.section9 #viderer #div1:hover,
+.section9 #viderer #div2:hover,
+.section9 #viderer #div3:hover {
   cursor: pointer;
 }
 
@@ -1540,7 +1542,9 @@ nav ul button:hover {
     flex-direction: column;
     gap: 30px;
   }
-  .section9 #viderer #div1, .section9 #viderer #div2, .section9 #viderer #div3 {
+  .section9 #viderer #div1,
+  .section9 #viderer #div2,
+  .section9 #viderer #div3 {
     width: 345px;
   }
 }
@@ -1609,7 +1613,7 @@ nav ul button:hover {
   background-color: #434ccc;
   border-radius: 5px;
   border: 2px solid #030ea1;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: "DM Sans";
   font-size: 16px;
@@ -1653,6 +1657,168 @@ nav ul button:hover {
   }
   .section10 div #SubscribeBtn {
     margin: 16px 0px 0px 0px;
+  }
+}
+.section11 {
+  margin: auto;
+}
+
+.footer2nd {
+  margin: auto;
+  width: 1440px;
+  height: 400px;
+  padding: 30px;
+  box-sizing: border-box;
+  background: rgb(245, 246, 252);
+}
+
+.footer2ndpart {
+  width: 1440px;
+  display: grid;
+  padding-top: 5%;
+  padding-bottom: 4%;
+  grid-template-areas: "fir sec thir fou" "fir sec thir fou";
+  justify-content: space-around;
+  margin: auto;
+  gap: 12%;
+}
+.footer2ndpart .footer2ndpart div:nth-child(1) {
+  grid-area: fir;
+}
+.footer2ndpart .footer2ndpart div:nth-child(2) {
+  grid-area: sec;
+}
+.footer2ndpart .footer2ndpart div:nth-child(3) {
+  grid-area: thir;
+}
+.footer2ndpart .footer2ndpart div:nth-child(4) {
+  grid-area: fou;
+}
+.footer2ndpart .social-media > img {
+  margin-right: 10px;
+}
+
+.conform {
+  display: flex;
+  gap: 8%;
+  align-items: center;
+}
+.conform p {
+  color: rgb(168, 169, 173);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.conform #data1 {
+  color: #000;
+  /* Text_Small */
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 200% */
+}
+.conform #data2 {
+  color: #000;
+  /* Text_Small */
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 200% */
+}
+
+h4 {
+  color: rgb(15, 15, 15);
+  /* H4 */
+  font-family: DM Serif Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
+
+.footer2ndpart > div > p {
+  color: rgb(168, 169, 173);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.footer2ndpart > div > h5 {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+@media all and (max-width: 480px) {
+  .footer2nd {
+    width: 375px;
+    height: 512px;
+    padding: 0%;
+    margin: 0%;
+    background: rgb(245, 246, 252);
+    margin: auto;
+    padding-bottom: 12px;
+  }
+  .footer2ndpart {
+    width: 80%;
+    display: grid;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    grid-template-areas: "fir fir" "sec thir" "fou  fou";
+    margin: auto;
+    gap: 1%;
+  }
+  .footer2ndpart div:nth-child(1) {
+    grid-area: fir;
+  }
+  .footer2ndpart div:nth-child(2) {
+    grid-area: sec;
+  }
+  .footer2ndpart div:nth-child(3) {
+    grid-area: thir;
+  }
+  .footer2ndpart div:nth-child(4) {
+    grid-area: fou;
+  }
+  .social-media > img {
+    margin-right: 10px;
+  }
+}
+.lastpart {
+  width: 1440px;
+  display: flex;
+  justify-content: space-around;
+}
+.lastpart p {
+  color: rgb(168, 169, 173);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media all and (max-width: 480px) {
+  .lastpart {
+    width: 375px;
+    display: block;
+    padding: 2%;
+  }
+  .lastpart p {
+    color: rgb(168, 169, 173);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
   }
 }
 
